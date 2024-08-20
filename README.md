@@ -1,8 +1,12 @@
-<div style="display: flex; align-items: center;">
-    <img src="./media/logo.png" width="15%" alt="ADED logo" style="margin-right: 10px;">
-    <h1 style="margin: 0;">ADED: Adaptive Draft-Verification for Efficient Large Language Model Decoding</h1>
-</div>
-[[Paper](https://arxiv.org/abs/2407.12021)] [[Blog](https://sites.google.com/view/aded-page/)]
+<p align="center">
+    <img src="./media/logo.png" width="20%" alt="ADED logo">
+</p>
+
+# ADED: Adaptive Draft-Verification for Efficient Large Language Model Decoding
+
+<p align="center">
+| <a href="https://arxiv.org/abs/2407.12021"><b>Paper</b></a> | <a href="https://sites.google.com/view/aded-page/"><b>Blog</b></a> | <a href="https://github.com/liuxukun2000/ADED/issues"><b>Roadmap</b></a> | 
+</p>
 
 ## Introduction
 
@@ -27,42 +31,10 @@ To address these issues, we introduce a novel methodology called ADED, which acc
 
 ## Core Features 💡
 
-<div style="display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto;">
-
-  <div style="display: flex; align-items: center;; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center;">
-    <img src="./media/plugin.png" alt="Plug-and-Play Acceleration" style="max-width: 100%; border-radius: 10px;">
-    <div style="text-align: left; margin-top: 15px;">
-      <h3 style="font-size: 1.2em; margin-bottom: 10px; color: #4e4e4e;">Plug-and-Play Acceleration</h3>
-      <p style="font-size: 1em; color: #666;">Achieves up to <strong>2.5X</strong> speed improvements in large language model decoding without the need for additional model training.</p>
-    </div>
-  </div>
-
-  <div style="display: flex; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center;">
-    <img src="./media/ram.png" alt="Minimal Memory Usage" style="max-width: 100%; border-radius: 10px;">
-    <div style="text-align: left; margin-top: 15px;">
-      <h3 style="font-size: 1.2em; margin-bottom: 10px; color: #4e4e4e;">Minimal Memory Usage</h3>
-      <p style="font-size: 1em; color: #666;">Efficiently accelerates decoding with a minimal memory footprint, requiring only <strong>253MB</strong> of corpus data for a <strong>1.9X</strong> speedup.</p>
-    </div>
-  </div>
-
-  <div style="display: flex; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center;">
-    <img src="./media/gpu.png" alt="No GPU Needed" style="max-width: 100%; border-radius: 10px;">
-    <div style="text-align: left; margin-top: 15px;">
-      <h3 style="font-size: 1.2em; margin-bottom: 10px; color: #4e4e4e;">No GPU Needed</h3>
-      <p style="font-size: 1em; color: #666;">Operates <em>without the need for GPU resources</em>, making it highly suitable for deployment on devices with limited hardware capabilities.</p>
-    </div>
-  </div>
-
-  <div style="display: flex; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center;">
-    <img src="./media/adp.png" alt="Adaptive Improvement" style="max-width: 100%; border-radius: 10px;">
-    <div style="text-align: left; margin-top: 15px;">
-      <h3 style="font-size: 1.2em; margin-bottom: 10px; color: #4e4e4e;">Adaptive Improvement</h3>
-      <p style="font-size: 1em; color: #666;">Features an <em>adaptive mechanism</em> that improves prediction accuracy over time, ensuring better performance the more it is used.</p>
-    </div>
-  </div>
-
-</div>
-
+| <img src="./media/plugin.png" alt="Plug-and-Play Acceleration" width="150"/> | <img src="./media/ram.png" alt="Minimal Memory Usage" width="150"/> | <img src="./media/gpu.png" alt="No GPU Needed" width="150"/> | <img src="./media/adp.png" alt="Adaptive Improvement" width="150"/> |
+|:-------------------------------------------------------------:|:-------------------------------------------------:|:----------------------------------:|:-------------------------------------------------:|
+| **Plug-and-Play Acceleration**                                | **Minimal Memory Usage**                          | **No GPU Needed**                  | **Adaptive Improvement**                          |
+| Achieves up to **2.5X** speed improvements in large language model decoding without the need for additional model training. | Efficiently accelerates decoding with a minimal memory footprint, requiring only **253MB** of corpus data for a **1.9X** speedup. | Operates **without the need for GPU resources**, making it highly suitable for deployment on devices with limited hardware capabilities. | Features an **adaptive mechanism** that improves prediction accuracy over time, ensuring better performance the more it is used. |
 
 <!-- + **Plug-and-Play Acceleration**: Achieves up to **2.5X** speed improvements in large language model decoding without the need for additional model training. 
 
