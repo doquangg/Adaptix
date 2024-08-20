@@ -1,8 +1,9 @@
 <p align="center">
     <img src="./media/logo.png" width="20%" alt="ADED logo">
 </p>
-
-# ADED: Adaptive Draft-Verification for Efficient Large Language Model Decoding
+<h1 align="center">
+    ADED: Adaptive Draft-Verification for Efficient Large Language Model Decoding
+</h1>
 
 <p align="center">
 | <a href="https://arxiv.org/abs/2407.12021"><b>Paper</b></a> | <a href="https://sites.google.com/view/aded-page/"><b>Blog</b></a> | <a href="https://github.com/liuxukun2000/ADED/issues"><b>Roadmap</b></a> | 
