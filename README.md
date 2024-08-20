@@ -25,9 +25,9 @@ To address these issues, we introduce a novel methodology called ADED, which acc
 
 ![speed](./media/speedup.gif)
 <div style="display: flex; align-items: center;">
-    <img src="./media/mt_bench_data.png" width="33%" alt="ADED logo" style="margin-right: 10px;">
-    <img src="./media/alpaca_data.png" width="33%" alt="ADED logo" style="margin-right: 10px;">
-    <img src="./media/human_data.png" width="33%" alt="ADED logo" style="margin-right: 10px;">
+    <img src="./media/mt_bench_data.png" width="30%" alt="ADED logo" style="margin-right: 10px;">
+    <img src="./media/alpaca_data.png" width="30%" alt="ADED logo" style="margin-right: 10px;">
+    <img src="./media/human_data.png" width="30%" alt="ADED logo" style="margin-right: 10px;">
 </div>
 
 ## Core Features 💡
