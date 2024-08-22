@@ -7,7 +7,7 @@ use std::collections::HashMap;
 use std::hash::Hash;
 use std::rc::Rc;
 
-const c1: f32 = 1.814;
+const c1: f32 = 32.0;
 const c2: f32 = 8.0;
 
 #[derive(Debug, Clone)]
