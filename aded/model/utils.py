@@ -101,28 +101,7 @@ def generate_candidates_and_draft_buffer(logits, input_ids, datastore, token_spa
     retrieved_token_list = []
     _draft_attn_mask, _tree_indices, _draft_position_ids, _retrieve_indices = [], [], [], []
     this_token = input_ids_extend.squeeze(0).to("cpu").tolist()
-    _s = time.time()
-    # for ii in range(1):
     retrieved_token_list, _draft_attn_mask, _tree_indices, _draft_position_ids, _retrieve_indices = datastore.search(this_token, choices=max_num_draft)
- #   print("retrieval time: ", (time.time() - _s) * 1000)
-    # print(retrieved_token_list)
-    # for span_id, token_span in enumerate(token_spans):
-    #     this_token = input_ids_extend.squeeze(0)[-token_span:].to("cpu").tolist()
-    #     # Retrieve draft tokens from the datastore, and get draft buffer
-    #     retrieved_token_list, _draft_attn_mask, _tree_indices, _draft_position_ids, _retrieve_indices = datastore.search(this_token, choices=max_num_draft)
-    #     # print(retrieved_token_list)
-        
-    #     # No retrieved sequences
-    #     if len(retrieved_token_list) == 0:
-    #         continue
-    #     # Break because this span has hitted
-    #     else:
-    #         break
-    # l1 = len(retrieved_token_list)
-    # l2 = sum(len(x) for x in retrieved_token_list)
-    # l3 = (l2 / l1) if l1 > 0 else 0
-    # print(l1, l2, l3)
-    print("retrieval time: ", (time.time() - _s) * 1000)
     # TODO: just continue to the next retrieval process
     if len(retrieved_token_list) == 0:
         # Just randomlt guess one token
