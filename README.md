@@ -11,7 +11,7 @@
 
 ## Introduction
 
-*ADED* is a method that accelerates large language model (LLM) decoding without fine-tuning, using an adaptive draft-verification process. It dynamically adjusts to token probabilities with a tri-gram matrix representation and employs *MCTS* to balance exploration and exploitation, producing accurate drafts quickly. *ADED* significantly speeds up decoding while maintaining high accuracy, making it ideal for practical applications.
+*ADED* is a kind of **Retrieval Based Speculative Decoding** method that accelerates large language model (LLM) decoding without fine-tuning, using an adaptive draft-verification process. It dynamically adjusts to token probabilities with a tri-gram matrix representation and employs *MCTS* to balance exploration and exploitation, producing accurate drafts quickly. *ADED* significantly speeds up decoding while maintaining high accuracy, making it ideal for practical applications.
 
 ![speed](./media/full_proc.svg)
 
