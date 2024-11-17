@@ -50,7 +50,14 @@ To address these issues, we introduce a novel methodology called ADED, which acc
 ```bash
 pip install -r requirements.txt
 ```
-Then follow the `README.md` in DraftRetriever.
+
+Then install `DraftRetriever`:
+
+You can install via `pip`:
+```sh
+pip install draftretriever
+```
+Or you can follow the `README.md` in DraftRetriever.
 
 ## Build Corpus
 
