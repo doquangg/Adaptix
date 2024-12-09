@@ -15,6 +15,9 @@
 
 ![speed](./media/full_proc.svg)
 
+## News and Updates
+- **🚀 Dec 2024**: The companion paper *Adaptive Draft-Verification for Efficient Large Language Model Decoding* is accepted at the AAAI 2025. See you in Philadelphia!🌎
+
 ## Motivation
 
 Large language model (LLM) decoding involves generating a sequence of tokens based on a given context, where each token is predicted one at a time using the model's learned probabilities. The typical autoregressive decoding method requires a separate forward pass through the model for each token generated, which is computationally inefficient and poses challenges for deploying LLMs in latency-sensitive scenarios. 
