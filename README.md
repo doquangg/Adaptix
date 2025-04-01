@@ -16,6 +16,7 @@
 ![speed](./media/full_proc.svg)
 
 ## News and Updates
+- **🏅 Feb 2025**: Our paper Adaptive Draft-Verification for Efficient Large Language Model Decoding was accepted as an **Oral Presentation** at AAAI 2025! 🎉
 - **🚀 Dec 2024**: The companion paper *Adaptive Draft-Verification for Efficient Large Language Model Decoding* is accepted at the AAAI 2025. See you in Philadelphia!🌎
 
 ## Motivation
