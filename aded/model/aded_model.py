@@ -9,7 +9,7 @@ from .kv_cache import initialize_past_key_values
 from transformers import AutoTokenizer
 import os
 import draftretriever
-
+from .profiling_utils import profiler
 
 
 class ADEDModel(nn.Module):
@@ -67,6 +67,7 @@ class ADEDModel(nn.Module):
 
         return model
 
+    @profiler
     def forward(
         self,
         input_ids=None,
@@ -102,6 +103,7 @@ class ADEDModel(nn.Module):
             return outputs, orig
         raise NotImplementedError
 
+    @profiler
     def aded_generate(
         self,
         input_ids,
@@ -206,6 +208,7 @@ class ADEDModel(nn.Module):
                 break
 
 
+    @profiler
     def baseline_generate(
         self,
         input_ids,
